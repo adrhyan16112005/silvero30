@@ -1,0 +1,16 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "postgres",
+            "group": "BANCO DE DADOS",
+            "database": "BANCO DE DADOS",
+            "username": "postgres",
+            "password": "takume31",
+            "connectionTimeout": 30
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "adrhyan_main",
+            "database": "adrhyan_main",
+            "username": "adrhyan",
+            "password": "adrhyan",
+            "connectionTimeout": 30,
+            "group": "BANCO DE DADOS"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "adrhyan_backup",
+            "group": "BANCO DE DADOS",
+            "database": "adrhyan_backup",
+            "username": "adrhyan",
+            "connectionTimeout": 30,
+            "password": "adrhyan"
+        }
+    ]
+}
