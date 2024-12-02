@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Gestão de Alunos</title>
 </head>
+
 <body>
+   
     <header>
         <div class="header-container">
-            <img src="logo.png" alt="Logo" class="logo"> <!-- Adicione seu logo aqui -->
+        
             <h1>Gestão de Alunos</h1>
         </div>
     </header>
-    
+
+   
     <section class="bot">
         <button class="botao" id="toggleTabela">Mostrar Tabela</button>
     </section>
 
+   
     <section id="tabelaContainer" class="tabela-container" style="display: none;">
         <main>
             <table class="tabela-alunos">
@@ -33,19 +38,22 @@
                     </tr>
                 </thead>
                 <tbody id="alunosTable">
-                    <!-- Dados da tabela serão carregados dinamicamente via JavaScript -->
+                   
                 </tbody>
             </table>
         </main>
     </section>
 
+    
     <footer>
         <div class="footer-container">
             <p>&copy; 2024 Gestão de Alunos. Todos os direitos reservados.</p>
         </div>
     </footer>
 
+  
     <script src="table.js"></script>
     <script src="mostrartable.js"></script>
 </body>
+
 </html>
